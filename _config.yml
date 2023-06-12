@@ -20,13 +20,13 @@ timezone: Asia/Ho_Chi_Minh
 
 title: Ha Tran Nguyen Ngoc # the main title
 
-tagline: Welcome to the "Wondrous Wares," a whimsical haven for all my cherished odds and ends! # it will display as the sub-title
+tagline: Welcome to the "Wondrous Wares", a whimsical haven for all my cherished odds and ends! # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A personal space for all kind of stuff.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://mushroommeep.github.io/"
+url: https://mushroommeep.github.io/
 
 github:
   username: mushroommeep # change to your github username
