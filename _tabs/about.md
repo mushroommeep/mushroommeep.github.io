@@ -2,6 +2,7 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
+layout: post
 toc: true
 ---
 
@@ -29,6 +30,7 @@ Not to mention, **Vietnamese**, my mother tongue, flows effortlessly from my lip
 ## Education
 
 Get ready for an educational rollercoaster as I unveil the highlights of my learning escapades! 😱
+
 | Year | School |
 | ----------- | ----------- |
 | 2014 - 2016 | [Institut universitaire de technologie de Bordeaux - Université de Bordeaux](https://www.iut.u-bordeaux.fr/general/)|
