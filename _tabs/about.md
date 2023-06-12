@@ -4,6 +4,7 @@ title:
 date: 2023-06-10 12:00:00 -500
 icon: fas fa-info-circle
 order: 4
+layout: post
 toc: true
 ---
 
