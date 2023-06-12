@@ -13,7 +13,7 @@ baseurl: ""
 lang: en
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Ho_Chi_Minh
+timezone: 
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
   A personal space for all kind of stuff.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: https://mushroommeep.github.io/
+url: "https://mushroommeep.github.io/"
 
 github:
   username: mushroommeep # change to your github username
