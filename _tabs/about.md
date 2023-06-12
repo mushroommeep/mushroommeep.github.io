@@ -2,6 +2,7 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
+toc: true
 ---
 
 > Hi, let's get to know each other!
