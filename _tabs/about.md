@@ -1,12 +1,19 @@
 ---
 # the default layout is 'page'
-title: Welcome to my virtual sanctuary!
+title:      Welcome to my virtual sanctuary!
 date: 2023-06-10 12:00:00 -500
 icon: fas fa-info-circle
 order: 4
 layout: post
 toc: true
 ---
+
+<style>
+red { color: red ;font-weight:700; font-size:20px }
+yellow { color: yellow }
+
+#dynamic-title {visibility: hidden;}
+</style>
 
 > Hi, let's get to know each other!
 {: .prompt-tip }
