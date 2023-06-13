@@ -11,7 +11,7 @@ toc: true
 red { color: red ;font-weight:700; font-size:20px }
 yellow { color: yellow }
 
-#dynamic-title {visibility: hidden;}
+.dynamic-title {visibility: hidden;}
 </style>
 
 > Hi, let's get to know each other!
