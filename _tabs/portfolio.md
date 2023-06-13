@@ -12,75 +12,108 @@ yellow { color: yellow }
 
 .dynamic-title {visibility: hidden;}
 
-.play {
-  animation: moveRow 55s infinite linear;
-}
-.play-reverse {
-  animation: moveRowRev 55s infinite linear;
-}
-.container {
-  white-space: nowrap;
-  margin-bottom: 50px;
-}
-.card {
-    background: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    display: inline-block;
-    flex: 1;
-    white-space: normal;
-    margin: 0 25px;
-    border: 1px solid #DCDFE3;
-    box-shadow: 0px 4px 5px rgba(0,0,0,0.05);
-    vertical-align: top;
-    overflow: hidden;
-    text-align: left;
+
+#proj1 {
+height: 600px;
+  margin: 0;
+  display: grid;
+  grid-template-rows: 500px 100px;
+  grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
+  align-items: center;
+  justify-items: center;
 }
 
-.card img {
-    display: inline-block;
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    margin-right: 10px;
+main#carousel {
+  grid-row: 1 / 2;
+  grid-column: 1 / 8;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  perspective: 600px;
+  --items: 5;
+  --middle: 3;
+  --position: 1;
+  pointer-events: none;
 }
 
-.card p {
-  font-family: 'BariolSerif', serif;
-    font-size: 18px;
-    color: #222;
-    line-height: 140%;
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+div.item {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  background-color: coral;
+  --r: calc(var(--position) - var(--offset));
+  --abs: max(calc(var(--r) * -1), var(--r));
+  transition: all 0.25s linear;
+  transform: rotateY(calc(-10deg * var(--r)))
+    translateX(calc(-300px * var(--r)));
+  z-index: calc((var(--position) - var(--abs)));
 }
-@keyframes moveRow {
-    0% {
-        transform: translate3d(0, 0, 0)
-    }
 
-    50% {
-        transform: translate3d(-60%, 0, 0)
-    }
-
-    100% {
-        transform: translate3d(10%, 0, 0)
-    }
+div.item:nth-of-type(1) {
+  --offset: 1;
+  background-color: #90f1ef;
 }
-@keyframes moveRowRev {
-        0% {
-        transform: translate3d(-50%, 0, 0)
-    }
-
-    50% {
-        transform: translate3d(10%, 0, 0)
-    }
-
-    100% {
-        transform: translate3d(-50%, 0, 0)
-    }
+div.item:nth-of-type(2) {
+  --offset: 2;
+  background-color: #ff70a6;
 }
+div.item:nth-of-type(3) {
+  --offset: 3;
+  background-color: #ff9770;
+}
+div.item:nth-of-type(4) {
+  --offset: 4;
+  background-color: #ffd670;
+}
+div.item:nth-of-type(5) {
+  --offset: 5;
+  background-color: #e9ff70;
+}
+
+input:nth-of-type(1) {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(1):checked ~ main#carousel {
+  --position: 1;
+}
+
+input:nth-of-type(2) {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(2):checked ~ main#carousel {
+  --position: 2;
+}
+
+input:nth-of-type(3) {
+  grid-column: 4 /5;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(3):checked ~ main#carousel {
+  --position: 3;
+}
+
+input:nth-of-type(4) {
+  grid-column: 5 / 6;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(4):checked ~ main#carousel {
+  --position: 4;
+}
+
+input:nth-of-type(5) {
+  grid-column: 6 / 7;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(5):checked ~ main#carousel {
+  --position: 5;
+}
+
 
 </style>
 
@@ -174,37 +207,17 @@ working mostly with Database layer, create, maintain, modify queries, data table
 
 <p>This carousel is created with HTML and CSS only.</p>
 
-<div class="container play">
-  <div class="card">
-    <img src="https://cdn.britannica.com/39/7139-050-A88818BB/Himalayan-chocolate-point.jpg" />
-    <p>easy, fast, efficient. love this app,& the staff that maintain it</p>
-  </div>
-  <div class="card">
-    <img src="https://cdn.britannica.com/39/7139-050-A88818BB/Himalayan-chocolate-point.jpg" />
-    <p>easy, fast, efficient. love this app,& the staff that maintain it</p>
-  </div>
-  <div class="card">
-    <img src="https://cdn.britannica.com/39/7139-050-A88818BB/Himalayan-chocolate-point.jpg" />
-    <p>easy, fast, efficient. love this app,& the staff that maintain it</p>
-  </div>
-  <div class="card">
-    <img src="https://cdn.britannica.com/39/7139-050-A88818BB/Himalayan-chocolate-point.jpg" />
-    <p>easy, fast, efficient. love this app,& the staff that maintain it</p>
-  </div>
-  <div class="card">
-    <img src="https://cdn.britannica.com/39/7139-050-A88818BB/Himalayan-chocolate-point.jpg" />
-    <p>easy, fast, efficient. love this app,& the staff that maintain it</p>
-  </div>
-  <div class="card">
-    <img src="https://cdn.britannica.com/39/7139-050-A88818BB/Himalayan-chocolate-point.jpg" />
-    <p>easy, fast, efficient. love this app,& the staff that maintain it</p>
-  </div>
-  <div class="card">
-    <img src="https://cdn.britannica.com/39/7139-050-A88818BB/Himalayan-chocolate-point.jpg" />
-    <p>easy, fast, efficient. love this app,& the staff that maintain it</p>
-  </div>
-  <div class="card">
-    <img src="https://cdn.britannica.com/39/7139-050-A88818BB/Himalayan-chocolate-point.jpg" />
-    <p>easy, fast, efficient. love this app,& the staff that maintain it</p>
-  </div>
-</div>
+<div id="proj1">
+  <input type="radio" name="position" checked />
+  <input type="radio" name="position" />
+  <input type="radio" name="position" />
+  <input type="radio" name="position" />
+  <input type="radio" name="position" />
+  <main id="carousel">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <main>
+<div>
