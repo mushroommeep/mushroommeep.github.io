@@ -12,108 +12,61 @@ yellow { color: yellow }
 
 .dynamic-title {visibility: hidden;}
 
-
-#proj1 {
-height: 600px;
-  margin: 0;
-  display: grid;
-  grid-template-rows: 500px 100px;
-  grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
-  align-items: center;
-  justify-items: center;
-}
-
-main#carousel {
-  grid-row: 1 / 2;
-  grid-column: 1 / 8;
+.pic-ctn {
   width: 100vw;
-  height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  transform-style: preserve-3d;
-  perspective: 600px;
-  --items: 5;
-  --middle: 3;
-  --position: 1;
-  pointer-events: none;
+  height: 200px;
 }
 
-div.item {
+@keyframes display {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+}
+
+.pic-ctn {
+  position: relative;
+  width: 100vw;
+  height: 300px;
+  margin-top: 15vh;
+}
+
+.pic-ctn > img {
   position: absolute;
-  width: 300px;
-  height: 400px;
-  background-color: coral;
-  --r: calc(var(--position) - var(--offset));
-  --abs: max(calc(var(--r) * -1), var(--r));
-  transition: all 0.25s linear;
-  transform: rotateY(calc(-10deg * var(--r)))
-    translateX(calc(-300px * var(--r)));
-  z-index: calc((var(--position) - var(--abs)));
+  top: 0;
+  left: calc(50% - 100px);
+  opacity: 0;
+  animation: display 10s infinite;
 }
 
-div.item:nth-of-type(1) {
-  --offset: 1;
-  background-color: #90f1ef;
+img:nth-child(2) {
+  animation-delay: 2s;
 }
-div.item:nth-of-type(2) {
-  --offset: 2;
-  background-color: #ff70a6;
+img:nth-child(3) {
+  animation-delay: 4s;
 }
-div.item:nth-of-type(3) {
-  --offset: 3;
-  background-color: #ff9770;
+img:nth-child(4) {
+  animation-delay: 6s;
 }
-div.item:nth-of-type(4) {
-  --offset: 4;
-  background-color: #ffd670;
+img:nth-child(5) {
+  animation-delay: 8s;
 }
-div.item:nth-of-type(5) {
-  --offset: 5;
-  background-color: #e9ff70;
-}
-
-input:nth-of-type(1) {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
-}
-input:nth-of-type(1):checked ~ main#carousel {
-  --position: 1;
-}
-
-input:nth-of-type(2) {
-  grid-column: 3 / 4;
-  grid-row: 2 / 3;
-}
-input:nth-of-type(2):checked ~ main#carousel {
-  --position: 2;
-}
-
-input:nth-of-type(3) {
-  grid-column: 4 /5;
-  grid-row: 2 / 3;
-}
-input:nth-of-type(3):checked ~ main#carousel {
-  --position: 3;
-}
-
-input:nth-of-type(4) {
-  grid-column: 5 / 6;
-  grid-row: 2 / 3;
-}
-input:nth-of-type(4):checked ~ main#carousel {
-  --position: 4;
-}
-
-input:nth-of-type(5) {
-  grid-column: 6 / 7;
-  grid-row: 2 / 3;
-}
-input:nth-of-type(5):checked ~ main#carousel {
-  --position: 5;
-}
-
 
 </style>
 
@@ -207,17 +160,10 @@ working mostly with Database layer, create, maintain, modify queries, data table
 
 <p>This carousel is created with HTML and CSS only.</p>
 
-<div id="proj1">
-  <input type="radio" name="position" checked />
-  <input type="radio" name="position" />
-  <input type="radio" name="position" />
-  <input type="radio" name="position" />
-  <input type="radio" name="position" />
-  <main id="carousel">
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <main>
-<div>
+<div class="pic-ctn">
+    <img src="https://picsum.photos/200/300?t=1" alt="" class="pic">
+    <img src="https://picsum.photos/200/300?t=2" alt="" class="pic">
+    <img src="https://picsum.photos/200/300?t=3" alt="" class="pic">
+    <img src="https://picsum.photos/200/300?t=4" alt="" class="pic">
+    <img src="https://picsum.photos/200/300?t=5" alt="" class="pic">
+  </div>
