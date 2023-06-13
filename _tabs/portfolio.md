@@ -17,7 +17,6 @@ yellow { color: yellow }
     height: 460px;
     margin: 20px auto;
     overflow: hidden;
-    border: 2px solid lightskyblue;
     display: flex;
 }
 
