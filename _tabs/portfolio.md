@@ -12,62 +12,34 @@ yellow { color: yellow }
 
 .dynamic-title {visibility: hidden;}
 
-.pic-ctn {
-  width: 100vw;
-  height: 200px;
+.gallery-wrapper {
+    width: 720px;
+    height: 460px;
+    margin: 20px auto;
+    overflow: hidden;
+    border: 2px solid lightskyblue;
+    display: flex;
 }
 
-@keyframes display {
-  0% {
-    transform: translateX(200px);
-    opacity: 0;
-  }
-  10% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-  20% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-  30% {
-    transform: translateX(-200px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(-200px);
-    opacity: 0;
-  }
-}
+.gallery-wrapper img {
+        width: 100%;
+        display: inline-block;
+        float: left;
+        animation-name: mymove;
+        animation-duration: 18s;
+        -webkit-animation-iteration-count: infinite;
+        position: relative;
+    }
 
-.pic-ctn {
-  position: relative;
-  width: 100vw;
-  height: 300px;
-  margin-top: 15vh;
+@keyframes mymove {
+    0% { left: 0%; }
+    25% { left: 0%; }
+    33% { left: -100%; }
+    58% { left: -100%; }
+    66% { left: -200% ;}
+    92% { left: -200% ;}
+    100% { left: -300% ;}
 }
-
-.pic-ctn > img {
-  position: absolute;
-  top: 0;
-  left: calc(50% - 100px);
-  opacity: 0;
-  animation: display 10s infinite;
-}
-
-img:nth-child(2) {
-  animation-delay: 2s;
-}
-img:nth-child(3) {
-  animation-delay: 4s;
-}
-img:nth-child(4) {
-  animation-delay: 6s;
-}
-img:nth-child(5) {
-  animation-delay: 8s;
-}
-
 </style>
 
 ## 2018 - 2020 : Software Engineer
@@ -160,10 +132,10 @@ working mostly with Database layer, create, maintain, modify queries, data table
 
 <p>This carousel is created with HTML and CSS only.</p>
 
-<div class="pic-ctn">
-    <img src="https://picsum.photos/200/300?t=1" alt="" class="pic">
-    <img src="https://picsum.photos/200/300?t=2" alt="" class="pic">
-    <img src="https://picsum.photos/200/300?t=3" alt="" class="pic">
-    <img src="https://picsum.photos/200/300?t=4" alt="" class="pic">
-    <img src="https://picsum.photos/200/300?t=5" alt="" class="pic">
+<div class="gallery-wrapper"> 
+  <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/353421767_1253015515582330_6448875641944718154_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=7Q3Lt2sp_koAX-EG29-&_nc_ht=scontent.fsgn2-6.fna&oh=00_AfDlzLd7YwbDbsBwdOMqpZp4FAIEcwFj_kzupb4CUZb2DA&oe=648CAFF5" alt="" class="pic">
+    <img src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t39.30808-6/353751300_1253015622248986_6233250670680327558_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=93Ry2nZRr54AX-NeR0o&_nc_ht=scontent.fsgn2-4.fna&oh=00_AfBh_4eVzEbAsCbA0dZe0JGTk_sRuu-npVMi2MPRrhLu1g&oe=648CE157" alt="" class="pic">
+    <img src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/353676935_1253015588915656_2437547315397325582_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=zn0-dDPVCFcAX__9BZ4&_nc_ht=scontent.fsgn2-3.fna&oh=00_AfCU2n0ugdeOx7Dw_B4MEfzuivp9YVZI1ld_JlJvZra9cg&oe=648C6077" alt="" class="pic">
+    <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/353640234_1253015578915657_4753618595846253185_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=FhNNnmal-6oAX-FAa9W&_nc_ht=scontent.fsgn2-6.fna&oh=00_AfCmyU9Iv9Vx9GjKTynjQ9r72Jq6pimDgQ9V31HusBtSfA&oe=648D2527" alt="" class="pic">
+    <img src="https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/353825871_1253015542248994_5093440771508833834_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=g--r3ygkadgAX_NeHer&_nc_ht=scontent.fsgn2-7.fna&oh=00_AfBEEicaP8QxiF2qP-H7c-LJ-0lfu3BPMxtU0DG54OxR4g&oe=648DEC7B" alt="" class="pic">
   </div>
