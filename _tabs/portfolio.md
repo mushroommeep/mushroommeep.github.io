@@ -13,7 +13,7 @@ yellow { color: yellow }
 .dynamic-title {visibility: hidden;}
 
 .carousel {
-  height: 520px;
+  height: 400px;
   width: 720px;
   overflow: hidden;
   text-align: center;
@@ -225,7 +225,36 @@ yellow { color: yellow }
   background-color: #fafafa;
 }
 
-
+.carousel--translate .carousel__slide:nth-of-type(1),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(1) {
+  background-image: url("https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/353421767_1253015515582330_6448875641944718154_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=7Q3Lt2sp_koAX-EG29-&_nc_ht=scontent.fsgn2-6.fna&oh=00_AfDlzLd7YwbDbsBwdOMqpZp4FAIEcwFj_kzupb4CUZb2DA&oe=648CAFF5");
+  background-size: cover;
+  background-position: center;
+}
+.carousel--translate .carousel__slide:nth-of-type(2),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(2) {
+  background-image: url("https://scontent.fsgn2-4.fna.fbcdn.net/v/t39.30808-6/353751300_1253015622248986_6233250670680327558_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=93Ry2nZRr54AX-NeR0o&_nc_ht=scontent.fsgn2-4.fna&oh=00_AfBh_4eVzEbAsCbA0dZe0JGTk_sRuu-npVMi2MPRrhLu1g&oe=648CE157");
+  background-size: cover;
+  background-position: center;
+}
+.carousel--translate .carousel__slide:nth-of-type(3),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(3) {
+  background-image: url("https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/353825871_1253015542248994_5093440771508833834_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=g--r3ygkadgAX_NeHer&_nc_ht=scontent.fsgn2-7.fna&oh=00_AfBEEicaP8QxiF2qP-H7c-LJ-0lfu3BPMxtU0DG54OxR4g&oe=648DEC7B");
+  background-size: cover;
+  background-position: center;
+}
+.carousel--translate .carousel__slide:nth-of-type(4),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(4) {
+  background-image: url("https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/353676935_1253015588915656_2437547315397325582_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=zn0-dDPVCFcAX__9BZ4&_nc_ht=scontent.fsgn2-3.fna&oh=00_AfCU2n0ugdeOx7Dw_B4MEfzuivp9YVZI1ld_JlJvZra9cg&oe=648C6077");
+  background-size: cover;
+  background-position: center;
+}
+.carousel--translate .carousel__slide:nth-of-type(5),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(5) {
+  background-image: url("https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/353640234_1253015578915657_4753618595846253185_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=FhNNnmal-6oAX-FAa9W&_nc_ht=scontent.fsgn2-6.fna&oh=00_AfCmyU9Iv9Vx9GjKTynjQ9r72Jq6pimDgQ9V31HusBtSfA&oe=648D2527");
+  background-size: cover;
+  background-position: center;
+}
 </style>
 
 ## 2018 - 2020 : Software Engineer
@@ -347,24 +376,14 @@ working mostly with Database layer, create, maintain, modify queries, data table
     </div>
     <div class="carousel__track">
       <li class="carousel__slide">
-        <h1>Overview</h1>
-        <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/353421767_1253015515582330_6448875641944718154_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=7Q3Lt2sp_koAX-EG29-&_nc_ht=scontent.fsgn2-6.fna&oh=00_AfDlzLd7YwbDbsBwdOMqpZp4FAIEcwFj_kzupb4CUZb2DA&oe=648CAFF5" alt="" class="pic">
       </li>
       <li class="carousel__slide">
-        <h1>Deviations</h1>
-        <img src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t39.30808-6/353751300_1253015622248986_6233250670680327558_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=93Ry2nZRr54AX-NeR0o&_nc_ht=scontent.fsgn2-4.fna&oh=00_AfBh_4eVzEbAsCbA0dZe0JGTk_sRuu-npVMi2MPRrhLu1g&oe=648CE157" alt="" class="pic">
       </li>
       <li class="carousel__slide">
-        <h1>ConsumptionChange</h1>
-        <img src="https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/353825871_1253015542248994_5093440771508833834_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=g--r3ygkadgAX_NeHer&_nc_ht=scontent.fsgn2-7.fna&oh=00_AfBEEicaP8QxiF2qP-H7c-LJ-0lfu3BPMxtU0DG54OxR4g&oe=648DEC7B" alt="" class="pic">
       </li>
       <li class="carousel__slide">
-        <h1>Consumption Pattern</h1>
-       <img src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/353676935_1253015588915656_2437547315397325582_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=zn0-dDPVCFcAX__9BZ4&_nc_ht=scontent.fsgn2-3.fna&oh=00_AfCU2n0ugdeOx7Dw_B4MEfzuivp9YVZI1ld_JlJvZra9cg&oe=648C6077" alt="" class="pic">
       </li>
       <li class="carousel__slide">
-        <h1>Weather</h1>
-        <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/353640234_1253015578915657_4753618595846253185_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=FhNNnmal-6oAX-FAa9W&_nc_ht=scontent.fsgn2-6.fna&oh=00_AfCmyU9Iv9Vx9GjKTynjQ9r72Jq6pimDgQ9V31HusBtSfA&oe=648D2527" alt="" class="pic">
       </li>
     </div>
     <div class="carousel__indicators">
