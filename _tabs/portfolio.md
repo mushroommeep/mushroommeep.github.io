@@ -366,9 +366,14 @@ working mostly with Database layer, create, maintain, modify queries, data table
 
 ## 2021 - 2023 : Data Engineer / Data Analyst
 
-<p>This carousel is created with HTML and CSS only.</p>
+### **<red>Energy Data Insights</red>**
 
-  <div class="carousel-container">
+#### **Description**
+
+ A system that helps users monitor and optimize their energy usage. The goal of the project is to design and develop a flexible and user-friendly dashboard that can track energy consumption and costs, as well as data corruption. 
+ The goal is to optimize the brand's operations, increase revenue, and improve customer satisfaction through data-driven decision-making.
+
+<div class="carousel-container">
   <div class="carousel my-carousel carousel--translate">
     <input class="carousel__activator" type="radio" name="carousel" id="F" checked="checked"/>
     <input class="carousel__activator" type="radio" name="carousel" id="G"/>
@@ -412,10 +417,43 @@ working mostly with Database layer, create, maintain, modify queries, data table
       <label class="carousel__indicator" for="G"></label>
       <label class="carousel__indicator" for="H"></label>
       <label class="carousel__indicator" for="I"></label>
-      <label class="carousel__indicator" for="J"></label>
+      <label class="carousel__indicator" for="J"></label>                                   
     </div>
   </div>
 </div>
+
+
+#### Technolodgy Used
+
+* Azure Data Factory
+* Microsoft Power BI
+* Azure Functions
+* .NET 6 (C#)
+* Azure Sql Server
+* Azure Batch Service
+* Azure Blob Storage
+
+#### Responsibilities
+
+The project requires technical and design skills and knowledge of energy management and conservation.
+
+1. Understanding and defining the project's business requirements/operations.                                                       
+
+2. Develop data model, ETL pipelines, automatic process for data flow 
+3. Provide ongoing maintenance and support for the solutions
+4. Create dashboards for data insights
+
+Example works:
+- Create jobs to retrieve data from multiple sources
+- Design database structure
+- Develop data pipelines, schedule refresh 
+- Calculate measures and develep dashboards
+  
+### **<red>Commerce Data Insights</red>**
+
+#### **Description**
+
+The project involves creating a Power BI dashboard for a retail brand to provide real-time insights and analysis of key performance indicators (KPIs) such as sales trends, customer behavior, inventory levels, and operational efficiency.
 
 <div class="carousel-container">
   <ul class="carousel my-carousel carousel--translateS">
@@ -456,3 +494,29 @@ working mostly with Database layer, create, maintain, modify queries, data table
     </div>
   </ul>
 </div>
+
+#### Technolodgy Used
+
+* Azure Data Factory
+* Microsoft Power BI
+* Azure Functions
+* .NET 6 (C#)
+* Azure Sql Server
+* Azure Batch Service
+* Azure Blob Storage
+
+#### Responsibilities
+
+The project requires technical and design skills and knowledge of energy management and conservation.
+
+1. Understanding and defining the project's business requirements/operations.                                                       
+
+2. Develop data model, ETL pipelines, automatic process for data flow 
+3. Provide ongoing maintenance and support for the solutions
+4. Create dashboards for data insights
+
+Example works:
+- integrate data from various systems and sources
+- design database structure
+- design and create data pipelines
+- calculate measures and create visualizations
