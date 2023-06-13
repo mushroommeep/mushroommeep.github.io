@@ -17,7 +17,7 @@ yellow { color: yellow }
 
 ### <red>**Proces.s**</red>
 
-#### **Description**
+##### **Description**
 
 a cloud-based ERP (Enterprise Resource Planning) system tailor-made for the construction industry.
 
@@ -25,7 +25,7 @@ a cloud-based ERP (Enterprise Resource Planning) system tailor-made for the cons
 
 
 
-### Technolodgy Used
+#### Technolodgy Used
 
 ```vb
 Sub Main()
@@ -38,7 +38,7 @@ End Sub
 SELECT * FROM SQLServerDatabase.Table 
 ```
 
-### Responsibilities
+#### Responsibilities
 
 1. Understand the project's business requirements/operations.
 2. Understand the processing flow of the developed software.
