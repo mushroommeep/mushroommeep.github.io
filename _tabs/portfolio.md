@@ -11,53 +11,6 @@ red { color: red ;font-weight:700; font-size:20px }
 yellow { color: yellow }
 
 .dynamic-title {visibility: hidden;}
-.wrapper {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.slider {
-  width: 1000px;
-  height: 100px;
-  position: relative;
-  background: white;
-  box-shadow: 0 10px 20px -10px rgba(0,0,0,0.2);
-  display: flex;
-  overflow: hidden;
-}
-.slide {
-  height: 100px;
-  display: flex;
-  align-items: center;
-  animation: slideshow 8s linear infinite;
-}
-.slide img {
-  height: 70px;
-  padding: 0 30px 0 30px;
-}
-@keyframes slideshow {
-  0% {transform: translateX(0);}
-  100% {transform: translateX(-100%);}
-}
-.slider::before, .slider::after {
-  height: 100px;
-  width: 200px;
-  position: absolute;
-  content: "";
-  background: linear-gradient(to right, white 0%, rgba(255,255,255,0) 100%);
-  z-index: 2;
-}
-.slider::before {
-  left: 0;
-  top: 0;
-}
-.slider::after {
-  right:0;
-  top:0;
-  transform: rotateZ(180deg);
-}
 </style>
 
 ## 2018 - 2020 : Software Engineer
@@ -150,25 +103,3 @@ working mostly with Database layer, create, maintain, modify queries, data table
 
 <p>This carousel is created with HTML and CSS only.</p>
 
-<div class="wrapper">
-    <div class="slider">
-    <div class="slide">
-        <img src="logo1.png" />
-        <img src="logo2.png" />
-        <img src="logo3.png" />
-        <img src="logo4.png" />
-        <img src="logo5.png" />
-        <img src="logo6.png" />
-        <img src="logo7.png" />
-    </div>
-    <div class="slide">
-        <img src="logo1.png" />
-        <img src="logo2.png" />
-        <img src="logo3.png" />
-        <img src="logo4.png" />
-        <img src="logo5.png" />
-        <img src="logo6.png" />
-        <img src="logo7.png" />
-    </div>
-    </div>
-</div>
