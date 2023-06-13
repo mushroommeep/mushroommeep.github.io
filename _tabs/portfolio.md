@@ -125,7 +125,7 @@ yellow { color: yellow }
   cursor: pointer;
   border-width: 5px 5px 0 0;
   border-style: solid;
-  border-color: #fafafa;
+  border-color: gray;
   opacity: 0.35;
   outline: 0;
   z-index: 3;
@@ -222,7 +222,7 @@ yellow { color: yellow }
   width: 30px;
 }
 .carousel__indicator {
-  background-color: #fafafa;
+  background-color: gray;
 }
 
 .carousel--translate .carousel__slide:nth-of-type(1),
@@ -252,6 +252,27 @@ yellow { color: yellow }
 .carousel--translate .carousel__slide:nth-of-type(5),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(5) {
   background-image: url("https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/353640234_1253015578915657_4753618595846253185_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=FhNNnmal-6oAX-FAa9W&_nc_ht=scontent.fsgn2-6.fna&oh=00_AfCmyU9Iv9Vx9GjKTynjQ9r72Jq6pimDgQ9V31HusBtSfA&oe=648D2527");
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel--translateS .carousel__slide:nth-of-type(1) {
+  background-image: url("https://scontent-lcy1-1.xx.fbcdn.net/v/t39.30808-6/353873837_1253085038908711_2558725042827278184_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=4J9wa-dVHe8AX-9HlNg&_nc_ht=scontent-lcy1-1.xx&oh=00_AfD7hkT9BYESk8pSWlZIRKa9b76DJG5XzHJSl_pK1e0k-A&oe=648E458F");
+  background-size: cover;
+  background-position: center;
+}
+.carousel--translateS .carousel__slide:nth-of-type(2) {
+  background-image: url("https://scontent-lcy1-1.xx.fbcdn.net/v/t39.30808-6/353633298_1253085032242045_5147823285003561513_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=EkyLliVlVwUAX94Q0Lo&_nc_ht=scontent-lcy1-1.xx&oh=00_AfAPO9fKlJVqdJwh1GByY0xfz71UBtf1Mcd7aG-lLkEiNg&oe=648D0ECD");
+  background-size: cover;
+  background-position: center;
+}
+.carousel--translateS .carousel__slide:nth-of-type(3) {
+  background-image: url("https://scontent-lcy1-2.xx.fbcdn.net/v/t39.30808-6/353846954_1253085022242046_3874298331246848577_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=T12FmefSbNAAX-U-j7w&_nc_ht=scontent-lcy1-2.xx&oh=00_AfAEfnFpm_x2Fq66Uol4Dz1R5NuAoNpm2cObXNGs3TYC3g&oe=648D9481");
+  background-size: cover;
+  background-position: center;
+}
+.carousel--translateS .carousel__slide:nth-of-type(4) {
+  background-image: url("https://scontent-lcy1-1.xx.fbcdn.net/v/t39.30808-6/353600709_1253085002242048_5326754945321599166_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=fnjG_YNbYoIAX9PJ2yy&_nc_ht=scontent-lcy1-1.xx&oh=00_AfA4HiGf-ZXe7b4ey1C5NuB_lzUV4YIM-e8kChC8fHW7Zw&oe=648C8B68");
   background-size: cover;
   background-position: center;
 }
@@ -394,4 +415,44 @@ working mostly with Database layer, create, maintain, modify queries, data table
       <label class="carousel__indicator" for="J"></label>
     </div>
   </div>
+</div>
+
+<div class="carousel-container">
+  <ul class="carousel my-carousel carousel--translateS">
+    <input class="carousel__activator" type="radio" id="A" name="activator" checked="checked"/>
+    <input class="carousel__activator" type="radio" id="B" name="activator"/>
+    <input class="carousel__activator" type="radio" id="C" name="activator"/>
+    <input class="carousel__activator" type="radio" id="D" name="activator"/>
+    <div class="carousel__controls">
+      <label class="carousel__control carousel__control--backward" for="D"></label>
+      <label class="carousel__control carousel__control--forward" for="B"></label>
+    </div>
+    <div class="carousel__controls">
+      <label class="carousel__control carousel__control--backward" for="A"></label>
+      <label class="carousel__control carousel__control--forward" for="C"></label>
+    </div>
+    <div class="carousel__controls">
+      <label class="carousel__control carousel__control--backward" for="B"></label>
+      <label class="carousel__control carousel__control--forward" for="D"></label>
+    </div>
+    <div class="carousel__controls">
+      <label class="carousel__control carousel__control--backward" for="C"></label>
+      <label class="carousel__control carousel__control--forward" for="A"></label>
+    </div>
+    <li class="carousel__slide">
+    </li>
+    <li class="carousel__slide">
+    </li>
+    <li class="carousel__slide">
+    </li>
+    <li class="carousel__slide">
+    </li>
+    </li>
+    <div class="carousel__indicators">
+      <label class="carousel__indicator" for="A"></label>
+      <label class="carousel__indicator" for="B"></label>
+      <label class="carousel__indicator" for="C"></label>
+      <label class="carousel__indicator" for="D"></label>
+    </div>
+  </ul>
 </div>
