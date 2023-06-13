@@ -15,15 +15,12 @@ yellow { color: yellow }
 .gallery-wrapper {
     width: 720px;
     height: 460px;
-    margin: 20px auto;
     overflow: hidden;
     display: flex;
 }
 
 .gallery-wrapper img {
         width: 100%;
-        display: inline-block;
-        float: left;
         animation-name: mymove;
         animation-duration: 18s;
         -webkit-animation-iteration-count: infinite;
