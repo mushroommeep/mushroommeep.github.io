@@ -1,6 +1,6 @@
 ---
 # the default layout is 'page'
-title: 
+title: Welcome to my virtual sanctuary!
 date: 2023-06-10 12:00:00 -500
 icon: fas fa-info-circle
 order: 4
@@ -11,7 +11,7 @@ toc: true
 > Hi, let's get to know each other!
 {: .prompt-tip }
 
-## Introduction
+## **Introduction**
 
 Hey there! Let's get acquainted and discover the awesomeness within each of us!
 
@@ -21,7 +21,7 @@ I was known by the name **Tran Nguyen Ngoc Ha**
 
 Once upon a time in 1996, I sprang to life in the enchanting landscapes of Dalat City. ⛺
 
-## My belongings
+## **My belongings**
 
 ### Languages
 
@@ -31,7 +31,7 @@ Not to mention, **Vietnamese**, my mother tongue, flows effortlessly from my lip
 
 ### Education
 
-Get ready for an educational rollercoaster as I unveil the highlights of my learning escapades! 😱
+Get ready for an educational rollercoaster as I unveil the highlights of my learning escapades! 
 
 | Year | School |
 | ----------- | ----------- |
@@ -52,6 +52,6 @@ Get ready for an educational rollercoaster as I unveil the highlights of my lear
 
  * [Microsoft Certified: Azure Data Engineer Associate](https://www.credly.com/badges/9c3bd518-67fe-4253-8181-06d4e1fd79c3/public_url)
 
-## My Natural Traits
+## **My Natural Traits**
 
 I am a vibrant, energetic, and positively charged individual, ready to unleash my superpowers to conquer any task that comes my way! I thrive on the excitement of bringing ideas to life and indulging in the delightful dance of innovation. Let's dive headfirst into the wild world of creativity and make some magic happen! 🌈
