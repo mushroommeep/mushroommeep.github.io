@@ -7,7 +7,7 @@ layout: post
 toc: true
 ---
 <style>
-red { color: red ;font-weight:700; font-size:20px }
+red { color: red ;font-weight:700; font-size:25px }
 yellow { color: yellow }
 
 .dynamic-title {visibility: hidden;}
@@ -278,49 +278,48 @@ yellow { color: yellow }
 }
 </style>
 
-## 2018 - 2020 : Software Engineer
+## **2018 - 2020 : Software Engineer**
 
 ### **<red>Proces.s</red>**
 
 #### **Description**
 
-a cloud-based ERP (Enterprise Resource Planning) system tailor-made for the construction industry.
+A cloud-based ERP (Enterprise Resource Planning) system tailor-made for the construction industry.
 
 [Reference](https://process.uchida-it.co.jp/)
 
-
-
-#### Technolodgy Used
+#### **Technolodgy Used**
 
 ```vb
 Sub Main()
-    'VB.NET as the main language to develop the product.
+    'Built with VB.NET at its core
     Console.WriteLine("Hello, we use VB.NET!")
 End Sub
 ```
 ```sql
--- SQL Server is trusted 
+-- SQL Server stands as the epitome of trustworthiness, guaranteeing reliability and security.
 SELECT * FROM SQLServerDatabase.Table 
 ```
 
-#### Responsibilities
+#### **Responsibilities**
 
-1. Understand the project's business requirements/operations.
+1. Comprehend the project's business needs and operations.
 
-2. Understand the processing flow of the developed software.
-Based on business requirments, create a detail coding logic for it
+2. Unravel the intricacies of the software's processing flow.
 
-Create unit test check list based on the system specifications and business requirements
+3. Based on business requirments, create a detail coding logic.
 
-Finish the task
+4. Develop a comprehensive unit test checklist derived from the system specifications and business requirements, ensuring thorough validation of every aspect.
 
-Example works:
+5. Wrap up the task at hand.
 
-Maintaining, modifying existing features, creating new features
+**Example works:**
 
-Creating reports using Active Report or Excel Creator
+* Engage in the continuous upkeep, enhancement, and innovation of existing features while also forging new ones.
 
-Migrate Data from Oracle to SQL Server
+* Creating reports with Active Report or Excel Creator
+
+* Migrate Data from Oracle to SQL Server
 
 ### **<red>Manshion 21 SMAW</red>**
 
@@ -331,7 +330,7 @@ Migrate Data from Oracle to SQL Server
 [Reference](https://www.mansion.uchida-it.co.jp/product)
 
 
-#### Technolodgy Used
+#### **Technolodgy Used**
 
 ```c#
 using System;
@@ -339,32 +338,33 @@ using System;
 class Program
 {
     static void Main()
-    {   //C# as the main language to develop the product.
+    {   //Harnessing the power of C# at its core.
         Console.WriteLine("Hello, we use C#!");
 }
 ```
 
 ```sql
--- SQL Server is trusted 
+-- Powered by SQL Server,the database system ensures efficient data management.
 SELECT * FROM SQLServerDatabase.Table 
 ```
 
-#### Responsibilities
+#### **Responsibilities**
 
-1. Understand the project's business requirements/operations.
+1. Comprehend the project's business needs and operations.
 
-2. Understand the processing flow of the developed software.
-Based on business requirments, create a detail coding logic for it
+2. Unravel the intricacies of the software's processing flow.
 
-Create unit test check list based on the system specifications and business requirements
+3. Based on business requirments, create a detail coding logic.
 
-Finish the task
+4. Develop a comprehensive unit test checklist derived from the system specifications and business requirements, ensuring thorough validation of every aspect.
 
-Example works:
+5. Wrap up the task at hand.
 
-working mostly with Database layer, create, maintain, modify queries, data table and return data for business layer
+**Example works:**
 
-## 2021 - 2023 : Data Engineer / Data Analyst
+* At the forefront of the Database layer, my work lies in creating, maintaining, and modifying queries and data tables, ultimately delivering valuable data to the business layer.
+
+## **2021 - 2023 : Data Engineer / Data Analyst**
 
 ### **<red>Energy Data Insights</red>**
 
@@ -423,7 +423,7 @@ working mostly with Database layer, create, maintain, modify queries, data table
 </div>
 
 
-#### Technolodgy Used
+#### **Technolodgy Used**
 
 * Azure Data Factory
 * Microsoft Power BI
@@ -433,21 +433,20 @@ working mostly with Database layer, create, maintain, modify queries, data table
 * Azure Batch Service
 * Azure Blob Storage
 
-#### Responsibilities
+#### **Responsibilities**
 
 The project requires technical and design skills and knowledge of energy management and conservation.
 
-1. Understanding and defining the project's business requirements/operations.                                                       
+1. Delve into the project's business requirements and operations, gaining a deep understanding and establishing clear definitions.
+2. Architect data models, design ETL pipelines, and implement automated processes to ensure seamless data flow throughout the system.
+3. Offer continuous maintenance and support for the implemented solutions, ensuring their smooth operation and longevity.
+4. Craft data-driven dashboards using advanced analytics, enabling actionable insights and empowering data-informed decision-making.
 
-2. Develop data model, ETL pipelines, automatic process for data flow 
-3. Provide ongoing maintenance and support for the solutions
-4. Create dashboards for data insights
-
-Example works:
-- Create jobs to retrieve data from multiple sources
-- Design database structure
-- Develop data pipelines, schedule refresh 
-- Calculate measures and develep dashboards
+**Example works:**
+- Design and implement automated data retrieval mechanisms, seamlessly extracting information from multiple sources for streamlined data integration.
+- Design a flawless database structure, optimizing organization and efficiency.
+- Create robust data pipelines and schedule automatic refreshes, ensuring timely and consistent data updates throughout the system.
+- Effortlessly compute measures and construct dynamic dashboards, delivering actionable insights with finesse.
   
 ### **<red>Commerce Data Insights</red>**
 
@@ -495,7 +494,7 @@ The project involves creating a Power BI dashboard for a retail brand to provide
   </ul>
 </div>
 
-#### Technolodgy Used
+#### **Technolodgy Used**
 
 * Azure Data Factory
 * Microsoft Power BI
@@ -505,18 +504,17 @@ The project involves creating a Power BI dashboard for a retail brand to provide
 * Azure Batch Service
 * Azure Blob Storage
 
-#### Responsibilities
+#### **Responsibilities**
 
-The project requires technical and design skills and knowledge of energy management and conservation.
+1. Unveiling and defining the project's business requirements and operations.
 
-1. Understanding and defining the project's business requirements/operations.                                                       
+2. Crafting data models, ETL pipelines, and automated data flow processes.
 
-2. Develop data model, ETL pipelines, automatic process for data flow 
-3. Provide ongoing maintenance and support for the solutions
-4. Create dashboards for data insights
+3. Ensuring continuous maintenance and support for the solutions.
 
-Example works:
-- integrate data from various systems and sources
-- design database structure
-- design and create data pipelines
-- calculate measures and create visualizations
+4. Designing captivating data dashboards for insightful analysis.
+
+**Example works:**
+- Design a resilient database structure
+- Create and configure data pipelines
+- Calculate essential measures and generate compelling visualizations
