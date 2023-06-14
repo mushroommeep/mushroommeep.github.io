@@ -80,8 +80,7 @@ theme_mode: # [light|dark]
 img_cdn: 
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/263797873_903371580546727_4410660194859973821_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=174925&_nc_ohc=cBEHA7KUIS4AX8BshUE&_nc_ht=scontent.fsgn2-6.fna&oh=00_AfDAb6gmXfKMxACqa6QAKHZ7hZrRyFOr2i9PVjmVk2_ELA&oe=648E5B58"
-
+avatar: "https://scontent.fsgn2-8.fna.fbcdn.net/v/t1.6435-9/95523777_521678765382679_7802849657113018368_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=a-OBWvJm_1EAX8ZFQiH&_nc_ht=scontent.fsgn2-8.fna&oh=00_AfAxFdD_PLrCnvSCdovtw3yTXhcBLBBZYdk1wvvGfkCMEA&oe=64B0F4A1"
 # boolean type, the global switch for TOC in posts.
 toc: true
 
