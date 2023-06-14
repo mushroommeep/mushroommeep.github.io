@@ -1,6 +1,6 @@
 ---
 # the default layout is 'page'
-icon: fas fa-archive
+icon: fa fa-camera-retro
 date: 2023-06-10 12:00:00 -500
 order: 2
 layout: post
