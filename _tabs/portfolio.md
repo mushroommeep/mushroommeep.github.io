@@ -1,6 +1,6 @@
 ---
 # the default layout is 'page'
-icon: fa-file-code-o
+icon: fas fa-archive
 date: 2023-06-10 12:00:00 -500
 order: 2
 layout: post
@@ -278,92 +278,6 @@ yellow { color: yellow }
 }
 </style>
 
-## **2018 - 2020 : Software Engineer**
-
-### **<red>Proces.s</red>**
-
-#### **Description**
-
-A cloud-based ERP (Enterprise Resource Planning) system tailor-made for the construction industry.
-
-[Reference](https://process.uchida-it.co.jp/)
-
-#### **Technolodgy Used**
-
-```vb
-Sub Main()
-    'Built with VB.NET at its core
-    Console.WriteLine("Hello, we use VB.NET!")
-End Sub
-```
-```sql
--- SQL Server stands as the epitome of trustworthiness, guaranteeing reliability and security.
-SELECT * FROM SQLServerDatabase.Table 
-```
-
-#### **Responsibilities**
-
-1. Comprehend the project's business needs and operations.
-
-2. Unravel the intricacies of the software's processing flow.
-
-3. Based on business requirments, create a detail coding logic.
-
-4. Develop a comprehensive unit test checklist derived from the system specifications and business requirements, ensuring thorough validation of every aspect.
-
-5. Wrap up the task at hand.
-
-**Example works:**
-
-* Engage in the continuous upkeep, enhancement, and innovation of existing features while also forging new ones.
-
-* Creating reports with Active Report or Excel Creator
-
-* Migrate Data from Oracle to SQL Server
-
-### **<red>Manshion 21 SMAW</red>**
-
-#### **Description**
-
- A comprehensive management system for apartment buildings. Centralize essential information for association accounting, receptionist services, and more, streamlining operations and enhancing efficiency.
-
-[Reference](https://www.mansion.uchida-it.co.jp/product)
-
-
-#### **Technolodgy Used**
-
-```c#
-using System;
-
-class Program
-{
-    static void Main()
-    {   //Harnessing the power of C# at its core.
-        Console.WriteLine("Hello, we use C#!");
-}
-```
-
-```sql
--- Powered by SQL Server,the database system ensures efficient data management.
-SELECT * FROM SQLServerDatabase.Table 
-```
-
-#### **Responsibilities**
-
-1. Comprehend the project's business needs and operations.
-
-2. Unravel the intricacies of the software's processing flow.
-
-3. Based on business requirments, create a detail coding logic.
-
-4. Develop a comprehensive unit test checklist derived from the system specifications and business requirements, ensuring thorough validation of every aspect.
-
-5. Wrap up the task at hand.
-
-**Example works:**
-
-* At the forefront of the Database layer, my work lies in creating, maintaining, and modifying queries and data tables, ultimately delivering valuable data to the business layer.
-
 ## **2021 - 2023 : Data Engineer / Data Analyst**
 
 ### **<red>Energy Data Insights</red>**
@@ -518,3 +432,89 @@ The project involves creating a Power BI dashboard for a retail brand to provide
 - Design a resilient database structure
 - Create and configure data pipelines
 - Calculate essential measures and generate compelling visualizations
+
+## **2018 - 2020 : Software Engineer**
+
+### **<red>Proces.s</red>**
+
+#### **Description**
+
+A cloud-based ERP (Enterprise Resource Planning) system tailor-made for the construction industry.
+
+[Reference](https://process.uchida-it.co.jp/)
+
+#### **Technolodgy Used**
+
+```vb
+Sub Main()
+    'Built with VB.NET at its core
+    Console.WriteLine("Hello, we use VB.NET!")
+End Sub
+```
+```sql
+-- SQL Server stands as the epitome of trustworthiness, guaranteeing reliability and security.
+SELECT * FROM SQLServerDatabase.Table 
+```
+
+#### **Responsibilities**
+
+1. Comprehend the project's business needs and operations.
+
+2. Unravel the intricacies of the software's processing flow.
+
+3. Based on business requirments, create a detail coding logic.
+
+4. Develop a comprehensive unit test checklist derived from the system specifications and business requirements, ensuring thorough validation of every aspect.
+
+5. Wrap up the task at hand.
+
+**Example works:**
+
+* Engage in the continuous upkeep, enhancement, and innovation of existing features while also forging new ones.
+
+* Creating reports with Active Report or Excel Creator
+
+* Migrate Data from Oracle to SQL Server
+
+### **<red>Manshion 21 SMAW</red>**
+
+#### **Description**
+
+ A comprehensive management system for apartment buildings. Centralize essential information for association accounting, receptionist services, and more, streamlining operations and enhancing efficiency.
+
+[Reference](https://www.mansion.uchida-it.co.jp/product)
+
+
+#### **Technolodgy Used**
+
+```c#
+using System;
+
+class Program
+{
+    static void Main()
+    {   //Harnessing the power of C# at its core.
+        Console.WriteLine("Hello, we use C#!");
+}
+```
+
+```sql
+-- Powered by SQL Server,the database system ensures efficient data management.
+SELECT * FROM SQLServerDatabase.Table 
+```
+
+#### **Responsibilities**
+
+1. Comprehend the project's business needs and operations.
+
+2. Unravel the intricacies of the software's processing flow.
+
+3. Based on business requirments, create a detail coding logic.
+
+4. Develop a comprehensive unit test checklist derived from the system specifications and business requirements, ensuring thorough validation of every aspect.
+
+5. Wrap up the task at hand.
+
+**Example works:**
+
+* At the forefront of the Database layer, my work lies in creating, maintaining, and modifying queries and data tables, ultimately delivering valuable data to the business layer.
