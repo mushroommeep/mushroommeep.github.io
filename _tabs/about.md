@@ -52,6 +52,9 @@ Get ready for an educational rollercoaster as I unveil the highlights of my lear
 | 2021 - 2023 | [Precio Fishbone Vietnam](https://www.preciofishbone.vn/) | Data Engineer, Data Analyst |
 
 ### Certifications
+
+ * National Excellent Student Competition in French
+
  * [Microsoft Certified: Azure Cosmos DB Developer Specialty](https://www.credly.com/badges/0f020e0b-8eaf-49ad-9309-f63299b2f545/public_url)
 
  * [Microsoft Certified: Azure Data Fundamentals](https://www.credly.com/badges/f4aaebfd-f911-4298-b6d4-feae996faa59/public_url)
@@ -61,3 +64,9 @@ Get ready for an educational rollercoaster as I unveil the highlights of my lear
 ## **My Natural Traits**
 
 I am a vibrant, energetic, and positively charged individual, ready to unleash my superpowers to conquer any task that comes my way! I thrive on the excitement of bringing ideas to life and indulging in the delightful dance of innovation. Let's dive headfirst into the wild world of creativity and make some magic happen! 🌈
+
+## **Contact Me**
+
+**Email:**  trannguyenngocha29@gmail.com
+
+**Phone:**  (+84) 777-952-291
