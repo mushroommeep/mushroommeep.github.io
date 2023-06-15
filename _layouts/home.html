@@ -120,12 +120,46 @@
 								</li>
 								<li>
 									<h3>Somewhere over the rainbow</h3>
-									<ul class="icons">
-										<li><a href="https://twitter.com/NaHa011996" class="icon brands"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="https://www.facebook.com/siunhangaobienhinh" class="icon brands"><i class="fab fa-facebook"></i></a></li>
-										<li><a href="https://www.instagram.com/_1chiec.nguoi.yeudoi_/" class="icon brands"><i class="fab fa-instagram"></i></a></li>
-										<li><a href="https://github.com/mushroommeep" class="icon brands"><i class="fab fa-github"></i></a></li>
-									</ul>
+									{% for entry in site.data.contact %}
+										{% case entry.type %}
+											{% when 'github', 'twitter' %}
+											{%- capture url -%}
+												https://{{ entry.type }}.com/{{ site[entry.type].username }}
+											{%- endcapture -%}
+											{% when 'email' %}
+											{% assign email = site.social.email | split: '@' %}
+											{%- capture url -%}
+												javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
+											{%- endcapture -%}
+											{% when 'rss' %}
+											{% assign url = '/feed.xml' | relative_url %}
+											{% else %}
+											{% assign url = entry.url %}
+										{% endcase %}
+
+										{% if url %}
+											<a
+											href="{{ url }}"
+											aria-label="{{ entry.type }}"
+											{% assign link_types = '' %}
+
+											{% unless entry.noblank %}
+												target="_blank"
+												{% assign link_types = 'noopener noreferrer' %}
+											{% endunless %}
+
+											{% if entry.type == 'mastodon' %}
+												{% assign link_types = link_types | append: ' me' | strip %}
+											{% endif %}
+
+											{% unless link_types == empty %}
+												rel="{{ link_types }}"
+											{% endunless %}
+											>
+											<i class="{{ entry.icon }}"></i>
+											</a>
+										{% endif %}
+									{% endfor %}
 								</li>
 							</ul>
 						</footer>
