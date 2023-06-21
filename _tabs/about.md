@@ -23,7 +23,7 @@ Hey there! Let's get acquainted and discover the awesomeness within each of us!
 
 I was known by the name **Tran Nguyen Ngoc Ha**
 
-![my face](/images/self.jpg){: width="700" height="400" }
+![my face](../images/self.jpg){: width="700" height="400" }
 
 Once upon a time in 1996, I sprang to life in the enchanting landscapes of Dalat City. ⛺
 
