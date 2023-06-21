@@ -227,7 +227,7 @@ yellow { color: yellow }
 
 .carousel--translate .carousel__slide:nth-of-type(1),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(1) {
-  background-image: url("https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/353421767_1253015515582330_6448875641944718154_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=7Q3Lt2sp_koAX-EG29-&_nc_ht=scontent.fsgn2-6.fna&oh=00_AfDlzLd7YwbDbsBwdOMqpZp4FAIEcwFj_kzupb4CUZb2DA&oe=648CAFF5");
+  background-image: url("images/1.png");
   background-size: cover;
   background-position: center;
 }
