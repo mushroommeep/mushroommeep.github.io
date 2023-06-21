@@ -227,52 +227,52 @@ yellow { color: yellow }
 
 .carousel--translate .carousel__slide:nth-of-type(1),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(1) {
-  background-image: url("images/1.png");
+  background-image: url("/images/1.png");
   background-size: cover;
   background-position: center;
 }
 .carousel--translate .carousel__slide:nth-of-type(2),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(2) {
-  background-image: url("https://scontent.fsgn2-4.fna.fbcdn.net/v/t39.30808-6/353751300_1253015622248986_6233250670680327558_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=93Ry2nZRr54AX-NeR0o&_nc_ht=scontent.fsgn2-4.fna&oh=00_AfBh_4eVzEbAsCbA0dZe0JGTk_sRuu-npVMi2MPRrhLu1g&oe=648CE157");
+  background-image: url("/images/2.png");
   background-size: cover;
   background-position: center;
 }
 .carousel--translate .carousel__slide:nth-of-type(3),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(3) {
-  background-image: url("https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/353825871_1253015542248994_5093440771508833834_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=g--r3ygkadgAX_NeHer&_nc_ht=scontent.fsgn2-7.fna&oh=00_AfBEEicaP8QxiF2qP-H7c-LJ-0lfu3BPMxtU0DG54OxR4g&oe=648DEC7B");
+  background-image: url("/images/3.png");
   background-size: cover;
   background-position: center;
 }
 .carousel--translate .carousel__slide:nth-of-type(4),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(4) {
-  background-image: url("https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/353676935_1253015588915656_2437547315397325582_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=zn0-dDPVCFcAX__9BZ4&_nc_ht=scontent.fsgn2-3.fna&oh=00_AfCU2n0ugdeOx7Dw_B4MEfzuivp9YVZI1ld_JlJvZra9cg&oe=648C6077");
+  background-image: url("/images/4.png");
   background-size: cover;
   background-position: center;
 }
 .carousel--translate .carousel__slide:nth-of-type(5),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(5) {
-  background-image: url("https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/353640234_1253015578915657_4753618595846253185_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=FhNNnmal-6oAX-FAa9W&_nc_ht=scontent.fsgn2-6.fna&oh=00_AfCmyU9Iv9Vx9GjKTynjQ9r72Jq6pimDgQ9V31HusBtSfA&oe=648D2527");
+  background-image: url("/images/5.png");
   background-size: cover;
   background-position: center;
 }
 
 .carousel--translateS .carousel__slide:nth-of-type(1) {
-  background-image: url("https://scontent-lcy1-1.xx.fbcdn.net/v/t39.30808-6/353873837_1253085038908711_2558725042827278184_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=4J9wa-dVHe8AX-9HlNg&_nc_ht=scontent-lcy1-1.xx&oh=00_AfD7hkT9BYESk8pSWlZIRKa9b76DJG5XzHJSl_pK1e0k-A&oe=648E458F");
+  background-image: url("/images/S1.png");
   background-size: cover;
   background-position: center;
 }
 .carousel--translateS .carousel__slide:nth-of-type(2) {
-  background-image: url("https://scontent-lcy1-1.xx.fbcdn.net/v/t39.30808-6/353633298_1253085032242045_5147823285003561513_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=EkyLliVlVwUAX94Q0Lo&_nc_ht=scontent-lcy1-1.xx&oh=00_AfAPO9fKlJVqdJwh1GByY0xfz71UBtf1Mcd7aG-lLkEiNg&oe=648D0ECD");
+  background-image: url("/images/S2.png");
   background-size: cover;
   background-position: center;
 }
 .carousel--translateS .carousel__slide:nth-of-type(3) {
-  background-image: url("https://scontent-lcy1-2.xx.fbcdn.net/v/t39.30808-6/353846954_1253085022242046_3874298331246848577_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=T12FmefSbNAAX-U-j7w&_nc_ht=scontent-lcy1-2.xx&oh=00_AfAEfnFpm_x2Fq66Uol4Dz1R5NuAoNpm2cObXNGs3TYC3g&oe=648D9481");
+  background-image: url("/images/S3.png");
   background-size: cover;
   background-position: center;
 }
 .carousel--translateS .carousel__slide:nth-of-type(4) {
-  background-image: url("https://scontent-lcy1-1.xx.fbcdn.net/v/t39.30808-6/353600709_1253085002242048_5326754945321599166_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=fnjG_YNbYoIAX9PJ2yy&_nc_ht=scontent-lcy1-1.xx&oh=00_AfA4HiGf-ZXe7b4ey1C5NuB_lzUV4YIM-e8kChC8fHW7Zw&oe=648C8B68");
+  background-image: url("/images/S4.png");
   background-size: cover;
   background-position: center;
 }

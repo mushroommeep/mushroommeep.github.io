@@ -23,7 +23,7 @@ Hey there! Let's get acquainted and discover the awesomeness within each of us!
 
 I was known by the name **Tran Nguyen Ngoc Ha**
 
-![my face](https://scontent-ams4-1.xx.fbcdn.net/v/t39.30808-6/327151410_723856979334761_818357686958184031_n.jpg?stp=cp6_dst-jpg&_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=iLsLoS6ZsaIAX85JmP_&_nc_ht=scontent-ams4-1.xx&oh=00_AfBHUodrH3GZF57QsrUUbQ7aEaZh5vlcc3C-ZW7bUkSVHw&oe=648D1038){: width="700" height="400" }
+![my face](/images/self.jpg){: width="700" height="400" }
 
 Once upon a time in 1996, I sprang to life in the enchanting landscapes of Dalat City. ⛺
 
